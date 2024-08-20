@@ -36,6 +36,7 @@
 - NumPy==2.0.1
 - Matplotlib==3.9.1
 - Seaborn==0.13.2
+- plotly==5.23.0
 - Jupyterlab==4.2.1
 
 
