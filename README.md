@@ -1,9 +1,7 @@
 # Lending Club Case Study
 
 ## Overview
-> This case study focuses on performing an Exploratory Data Analysis (EDA) on Lending Club's loan data.<br> The aim is to extract meaningful insights that can help understand the characteristics of loans and borrower behavior.<br> This analysis will help in identifying patterns and trends that could inform future lending strategies.<br>In other words, the company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default.  The company can utilise this knowledge for its portfolio and risk assessment.
-
-
+> This case study focuses on performing an Exploratory Data Analysis (EDA) on Lending Club's loan data to extract meaningful insights regarding loan characteristics and borrower behavior. The goal is to identify patterns and trends that can inform future lending strategies and understand the driving factors behind loan defaults. By analyzing these factors, the company can better assess portfolio risk and optimize lending decisions.
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -11,24 +9,16 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
-
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## General Information <a class="anchor" id = general-information></a>
+- **Project Background:** Lending Club, a peer-to-peer lending company, seeks to enhance its understanding of borrower behavior and loan performance. This analysis aims to identify the key factors influencing loan defaults and successful repayments.
+- **Business Problem:** The primary objective is to uncover the variables that strongly indicate the likelihood of loan default. By understanding these factors, Lending Club can improve its risk assessment processes, minimize defaults, and maintain a healthier loan portfolio.
+- **Dataset Used:** The dataset includes detailed information on loans issued by Lending Club, including borrower demographics, loan characteristics, repayment status, and more.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+1. **Loan Performance:** The number of fully paid loans significantly outnumbers defaulted loans, with most loans being of high grade (A and B), indicating that Lending Club primarily caters to lower-risk borrowers.
+2. **Loan Term and Risk:** Loans with a 60-month term have a higher likelihood of default compared to 36-month loans, which are more commonly associated with higher grades and lower default rates.
+3. **Borrower Characteristics:** Borrowers with annual incomes below $50,000 are more likely to default, while those with higher incomes tend to take out larger loans, showing a moderate positive correlation (r = 0.41) between loan amount and income.
+4. **Interest Rate Dynamics:** The interest rate correlates moderately with the loan term (r = 0.44), with longer terms associated with higher interest rates, indicating a potential risk factor that Lending Club should manage carefully.
 
 ## Technologies Used
 - Python==3.10.12
@@ -39,22 +29,10 @@
 - plotly==5.23.0
 - Jupyterlab==4.2.1
 
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+- This project was inspired by the need to better understand borrower behavior and loan performance at Lending Club.
+- Data and analysis techniques were based on common practices in data science.
+- Special thanks to the open-source community for providing the tools and resources used in this project.
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [Shubham Sharma](https://www.linkedin.com/in/shubham-sharma-andy) - feel free to contact me!
